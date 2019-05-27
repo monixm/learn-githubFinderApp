@@ -1,0 +1,19 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 50%;
+}
+
+.navbar-brand {
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+#profile {
+    margin: 4rem;
+}
