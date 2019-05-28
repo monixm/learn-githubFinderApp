@@ -43,14 +43,14 @@ $(document).ready(function(){
                 <div class="card-body">
                   <div class="row justify-content-center align-items-center text-center">
                   <div class="col-md-6">
-                    <img class="img-thumbnail avatar" src="${user.avatar_url}"><br>
+                    <img class="img- avatar" src="${user.avatar_url}"><br>
                     <a target="_blank" class="btn btn-primary btn-lg m-4" href="${user.html_url}">View Profile</a>
                   </div>
                   <div class="col-md-6">
-                    <span class="badge-pill badge-dark p-2 m-2">Public Repos: ${user.public_repos}</span>
-                    <span class="badge-pill badge-primary p-2 m-2">Public Gists: ${user.public_gists}</span>
-                    <span class="badge-pill badge-success p-2 m-2">Followers: ${user.followers}</span>
-                    <span class="badge-pill badge-info p-2 m-2">Following: ${user.following}</span>
+                    <span class="badge-pill badge-dark p-2">Public Repos: ${user.public_repos}</span>
+                    <span class="badge-pill badge-primary p-2">Public Gists: ${user.public_gists}</span>
+                    <span class="badge-pill badge-success p-2">Followers: ${user.followers}</span>
+                    <span class="badge-pill badge-info p-2">Following: ${user.following}</span>
                     <br><br>
                     <ul class="list-group">
                       <li class="list-group-item">Company: ${user.company}</li>
